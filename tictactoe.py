@@ -16,7 +16,7 @@ class Board:
 
     def print(self):
         """ prints the rows"""
-        for i in range(9):
+        for i in range(3):
             #TODO: fix printing 1 and 2 to X and O
             print(self.board[i*3:i*3+3])  # print slices of list by 3's
 
