@@ -1,11 +1,11 @@
 import pygame
-import tictactoe
+import tictactoe_legacy
 
 
 #  Visual Controller for tictactoe game
 def main():
     pygame.init()  # initialize pygame library
-    board = tictactoe.Board()
+    board = tictactoe_legacy.Board()
     screen = pygame.display.set_mode([600, 600])  # Set drawing window (x, y)
     width = screen.get_width()
     height = screen.get_height()
